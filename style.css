@@ -1,0 +1,102 @@
+.header {
+    font-family: "Beyond The Mountains";
+    font-size: 50px;
+    text-align: center;
+    border: 3px solid darkslateblue;
+    background-color: cadetblue;
+}
+#info {
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 20px;
+    border-spacing: 2px;
+}
+
+#major {
+    font-family: "Century Gothic";
+    border: 3px solid darkslateblue;
+    width:50%;
+    background-color: cadetblue;
+}
+
+#grad {
+    font-family: "Century Gothic";
+    border: 3px solid darkslateblue;
+    width: 50%;
+    background-color: cadetblue;
+}
+
+#me {
+    font-family: "Century Gothic";
+    border: 3px solid darkslateblue;
+    width: 47%;
+    float: right;
+    background-color: cadetblue;
+
+}
+
+.navigator {
+    border: 2px solid darkslateblue;
+    font-family: "Century Gothic";
+    font-size: 20px;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.footer {
+    border: 3px solid darkslateblue;
+    font-family: "Century Gothic";
+    background-color: cadetblue;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        text-align: center;
+        margin: auto;
+        font-size: 35px;
+        width: 75%;
+    }
+
+    .navigator {
+        text-align: center;
+        margin: auto;
+        width: 75%;
+        font-size: 15px;
+    }
+    #info {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    #major {
+        text-align: center;
+        width: 75%;
+        float: none;
+        margin: auto;
+        font-size: 12px;
+
+    }
+
+    #me{
+        text-align: center;
+        width: 75%;
+        float: none;
+        margin: auto;
+        font-size: 12px;
+
+    }
+    #grad {
+        text-align: center;
+        width: 75%;
+        float: none;
+        margin: auto;
+        font-size: 12px;
+    }
+
+    .footer {
+        text-align: center;
+        margin: auto;
+        width: 75%;
+        font-size: 15px;
+    }
+}
